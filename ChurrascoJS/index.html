@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div_churrasco">
+        <h1>Churrasco</h1>
+        <form id="formulario">
+            <div>
+                <label for="alcoolicos">Adultos (que consomem bebidas alcoólicas):</label>
+                <input type="number" name="alcoolicos" id="alcoolicos">
+            </div>
+
+            <div>
+                <label for="nao_alcoolicos">Adultos (que não consomem bebidas alcoólicas):</label>
+                <input type="number" name="nao_alcoolicos" id="nao_alcoolicos">
+            </div>
+
+            <div>
+                <label for="criancas">Crianças</label>
+                <input type="number" name="criancas" id="criancas">
+            </div>
+
+            <button id="btn">Lançar</button>
+        </form>
+        <div id="resultado">
+            <p></p>
+            <button id="voltar">Voltar</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
